@@ -10,6 +10,6 @@ COPY . .
 
 RUN npx prisma generate
 
-RUN npm run build
+# RUN npm run build
 
 CMD ["npm", "run", "dev"]
