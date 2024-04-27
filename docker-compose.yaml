@@ -12,6 +12,7 @@ services:
     volumes:
       - ./:/app
       - /app/node_modules
+    command: /app/start.sh
     depends_on:
       - db
   db:

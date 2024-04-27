@@ -1,4 +1,5 @@
 import prisma from "@/lib/prisma";
+// export const dynamic = "foce-dynamic";
 
 export default async function Home() {
   try {
