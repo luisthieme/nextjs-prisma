@@ -1,4 +1,4 @@
-// File: /Users/guestuser/5minds/PrivateStuff/nextjs/nextjs-prisma/src/app/layout.tsx
+// File: /app/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
