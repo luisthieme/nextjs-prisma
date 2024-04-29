@@ -1,5 +1,4 @@
 import prisma from "@/lib/prisma";
-// export const dynamic = "foce-dynamic";
 
 export default async function Home() {
   try {
@@ -14,5 +13,6 @@ export default async function Home() {
   }
 
   const users = await prisma.user.findMany();
+
   return <main>{JSON.stringify(users)}</main>;
 }
